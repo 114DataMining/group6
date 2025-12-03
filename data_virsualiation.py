@@ -1,3 +1,6 @@
+pip install pandas numpy matplotlib seaborn
+pip install scikit-learn
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -193,4 +196,5 @@ plt.legend(title='', fontsize=10, loc=1)
 plt.xticks(rotation=15) 
 plt.grid(axis='y', linestyle=':') 
 plt.tight_layout()
+
 plt.show()
